@@ -14,11 +14,19 @@ namespace OA4R7U_betucserelo
             do
             {
                 Console.WriteLine("Adott kereső használatához írja be a kereső kezdőbetűjét!");
-                Console.WriteLine("Mélységi-m");
+                Console.WriteLine("Mélységi - m");
+                Console.WriteLine("Próba-hiba módszer - p");
+                Console.WriteLine("Backtrack - b");
+                Console.WriteLine("Kilépés - e");
                 beirt = Console.ReadLine();
 
                 if (beirt == "m")
                     Kiir(new Melysegi());
+                if (beirt == "p")
+                    Kiir(new Probahiba());
+                
+
+                
             } while (beirt != "e");
             
 
