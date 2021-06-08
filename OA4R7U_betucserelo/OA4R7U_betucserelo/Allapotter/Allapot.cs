@@ -22,7 +22,7 @@ namespace OA4R7U_betucserelo
         {
             for (int i = 0; i < kezdoszo.Length; i++)
             {
-                karakterek.Append(kezdoszo[i]);
+                karakterek[i]=kezdoszo[i];
             }
         }
 
