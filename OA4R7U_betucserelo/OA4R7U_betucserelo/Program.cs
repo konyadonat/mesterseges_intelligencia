@@ -31,7 +31,7 @@ namespace OA4R7U_betucserelo
             {
                 for (int i = 0; i < 5; i++)
                 {
-                    Console.WriteLine(allapot.Karakterek[i]);
+                    Console.Write(allapot.Karakterek[i]);
                 }
                 Console.WriteLine();
             }
