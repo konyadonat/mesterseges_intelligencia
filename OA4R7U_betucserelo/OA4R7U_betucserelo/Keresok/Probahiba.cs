@@ -21,23 +21,21 @@ namespace OA4R7U_betucserelo
 
             Random rnd = new Random();
 
-            while (true)
+            while (!ut.Last().celfeltel())
             {
                 Operator kivalasztottoperator = Operatorok[rnd.Next(0, Operatorok.Count)];
                 if (kivalasztottoperator.Elofeltetel(ut.Last()))
                 {
                     Allapot uj = kivalasztottoperator.atir(ut.Last());
-                    if (uj.celfeltel())
-                        break;
                     ut.Add(uj);
                 }
                 
                
                 
             }
-            for (int i = 0; i < ut.Count; i++)
+            foreach (Allapot allapot in ut)
             {
-                Ut.Add(ut[i]);
+                Ut.Add(allapot);
             }
         }
     }
