@@ -20,32 +20,32 @@ namespace OA4R7U_betucserelo
             this.mire = mire;
         }
 
-        public Allapot átír(Allapot állapot)
+        public Allapot atir(Allapot allapot)
         {
-            Allapot újállapot = new Allapot();
+            Allapot ujallapot = new Allapot();
 
             for (int i = 0; i < 5; i++)
             {
-                újállapot.Karakterek[i] = állapot.Karakterek[i];
+                ujallapot.Karakterek[i] = allapot.Karakterek[i];
             }
-            újállapot.Karakterek[mit] = mire;
-            return újállapot;
+            ujallapot.Karakterek[mit] = mire;
+            return ujallapot;
         }
 
-        public bool Elofeltetel(Allapot állapot)
+        public bool Elofeltetel(Allapot allapot)
         {
-            if (állapot.Karakterek[mit] == mire)
+            if (allapot.Karakterek[mit] == mire)
             {
                 return false;
             }
-            char voltállapot = állapot.Karakterek[mit];
-            állapot.Karakterek[mit] = mire;
-            if (!állapot.szavak.Contains(new string(állapot.Karakterek)))
+            char voltállapot = allapot.Karakterek[mit];
+            allapot.Karakterek[mit] = mire;
+            if (!allapot.szavak.Contains(new string(allapot.Karakterek)))
             {
-                állapot.Karakterek[mit] = voltállapot;
+                allapot.Karakterek[mit] = voltállapot;
                 return false;
             }
-            állapot.Karakterek[mit] = voltállapot;
+            allapot.Karakterek[mit] = voltállapot;
             return true;
         }
     }
