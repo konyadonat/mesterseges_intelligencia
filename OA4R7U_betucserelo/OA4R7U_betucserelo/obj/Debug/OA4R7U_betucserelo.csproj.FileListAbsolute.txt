@@ -1,0 +1,7 @@
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\bin\Debug\OA4R7U_betucserelo.exe.config
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\bin\Debug\OA4R7U_betucserelo.exe
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\bin\Debug\OA4R7U_betucserelo.pdb
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\obj\Debug\OA4R7U_betucserelo.csprojAssemblyReference.cache
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\obj\Debug\OA4R7U_betucserelo.csproj.CoreCompileInputs.cache
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\obj\Debug\OA4R7U_betucserelo.exe
+C:\Users\konya\Documents\GitHub\mesterseges_intelligencia\OA4R7U_betucserelo\OA4R7U_betucserelo\obj\Debug\OA4R7U_betucserelo.pdb
