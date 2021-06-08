@@ -26,7 +26,8 @@ namespace OA4R7U_betucserelo
                     Kiir(new Probahiba());
                 if (beirt == "b")
                     Kiir(new Backtrack());
-
+                if (beirt == "o")
+                    Kiir(new Optimalis());
                 
             } while (beirt != "e");
             
