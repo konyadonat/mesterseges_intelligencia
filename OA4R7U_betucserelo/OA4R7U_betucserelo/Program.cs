@@ -24,7 +24,8 @@ namespace OA4R7U_betucserelo
                     Kiir(new Melysegi());
                 if (beirt == "p")
                     Kiir(new Probahiba());
-                
+                if (beirt == "b")
+                    Kiir(new Backtrack());
 
                 
             } while (beirt != "e");
