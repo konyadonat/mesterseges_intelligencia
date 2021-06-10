@@ -46,11 +46,8 @@
     <Compile Include="Allapotter\Allapot.cs" />
     <Compile Include="Allapotter\Csomopont.cs" />
     <Compile Include="Allapotter\Operator.cs" />
-    <Compile Include="Keresok\Backtrack.cs" />
     <Compile Include="Keresok\Kereso.cs" />
     <Compile Include="Keresok\Melysegi.cs" />
-    <Compile Include="Keresok\Optimalis.cs" />
-    <Compile Include="Keresok\Probahiba.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
