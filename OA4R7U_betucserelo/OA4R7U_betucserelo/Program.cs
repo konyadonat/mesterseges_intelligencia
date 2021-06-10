@@ -17,6 +17,7 @@ namespace OA4R7U_betucserelo
                 Console.WriteLine("Mélységi - m");
                 Console.WriteLine("Próba-hiba módszer - p");
                 Console.WriteLine("Backtrack - b");
+                Console.WriteLine("Backtrack valahol végtelen ciklusban ragad");
                 Console.WriteLine("Optimális - o");
                 Console.WriteLine("Kilépés - e");
                 beirt = Console.ReadLine();
